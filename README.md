@@ -1,5 +1,5 @@
-# Shop Manager Program
-This program provides an interface and implementation that  can be utilized to do CRUD operations on goods stored in solana network.
+# Shop Manager SmartContract/Program
+This program provides an interface and implementation that  can be utilized to do CRUD operations on goods stored in solana blockchain network.
 
 Its build using  anchor framework.
 
@@ -7,8 +7,12 @@ The main aim of this program is to  manager records of goods in a shop.
 
 The [frontend](https://github.com/JusticeEli/ShopManagement/tree/branch_1#readme) communicating with this program is a Native android application written using `Java` and `Kotlin`.
 
-The android application uses a [Rest api](https://github.com/JusticeEli/shop-manager-api#readme) to communicate with the on-chain program ,the backend is build using `Rust actix-web framework`.
+The android application uses a [Rest api](https://github.com/JusticeEli/shop-manager-api#readme) to communicate with the on-chain program ,the [backend](https://github.com/JusticeEli/shop-manager-api#readme) is build using `Rust actix-web framework`.
 
+
+## Tech Stack
+- Rust
+- Anchor Framework
 
 ## Development
 
