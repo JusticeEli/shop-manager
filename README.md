@@ -5,9 +5,9 @@ Its build using  anchor framework.
 
 The main aim of this program is to  manager records of goods in a shop.
 
-The [frontend](https://github.com/JusticeEli/ShopManagement/tree/branch_1) communicating with this program is a Native android application written using `Java` and `Kotlin`.
+The [frontend](https://github.com/JusticeEli/ShopManagement/tree/branch_1#readme) communicating with this program is a Native android application written using `Java` and `Kotlin`.
 
-The android application uses a [Rest api](https://github.com/JusticeEli/shop-manager-api) to communicate with the on-chain program ,the backend is build using `Rust actix-web framework`.
+The android application uses a [Rest api](https://github.com/JusticeEli/shop-manager-api#readme) to communicate with the on-chain program ,the backend is build using `Rust actix-web framework`.
 
 
 ## Development
