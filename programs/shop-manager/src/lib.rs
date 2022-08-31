@@ -27,7 +27,7 @@ pub mod shop_manager {
         msg!("goods:{:?}", goods_account.goods);
         Ok(())
     }
-    pub fn update_good(ctx: Context<AddGoods>, good: Good) -> Result<()> {
+    pub fn update_goods(ctx: Context<AddGoods>, good: Good) -> Result<()> {
         let goods_account = &mut ctx.accounts.goods_account;
         msg!("good:{:?}", good);
         let position = goods_account.goods.iter().position(|goodIter| goodIter.id == good.id).unwrap();
@@ -80,4 +80,13 @@ pub struct Good {
     pub name: String,
     pub image: String,
     pub price: u32,
+}
+
+
+impl PartialEq for Good {
+    fn eq(&self, other: &Self) -> bool {
+        self.id==other.id
+    }
+    
+    
 }

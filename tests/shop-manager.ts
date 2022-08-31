@@ -94,7 +94,7 @@ describe("shop-manager", () => {
       goodsAccount: goodsAccountKeyPair.publicKey,
     }).rpc();
 
-    await program.methods.updateGood({
+    await program.methods.updateGoods({
       id: new BN(3),
       name: "white wash powder soap",
       price: 6787,
